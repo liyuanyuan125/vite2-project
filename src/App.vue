@@ -2,7 +2,7 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <p>{{ obj.count }}</p>
-  <p>commit lint </p>
+  <p>tests commitlint  </p>
 </template>
 
 <script setup lang="ts">
