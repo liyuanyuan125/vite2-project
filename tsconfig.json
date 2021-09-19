@@ -1,0 +1,20 @@
+{
+  "compilerOptions": { // 编译选项
+    "target": "esnext", // 代码编程成的格式
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node", // 模块解析的模式使用node
+    "strict": true,
+    "jsx": "preserve",//保持js原生的写法
+    "sourceMap": true,
+    "resolveJsonModule": true, //是否要解析json模块
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types":["vite/client","jest"],
+    "baseUrl": "./", // 根目录基本的url地址
+    "paths": {
+      "@": ["./src"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue","tests/**/*.spec.ts", "tests/test.ts"]
+}
