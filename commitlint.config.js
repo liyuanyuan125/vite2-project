@@ -1,4 +1,16 @@
 // 提交注释检查文件
+// [feature, update, fixbug, refactor, optimize, style, docs, chore]
+/**
+* feature：新功能
+* update：更新某功能
+* fixbug：修补某功能的bug
+* refactor：重构某个功能
+* optimize: 优化构建工具或运行时性能
+* style：仅样式改动
+* docs：仅文档新增/改动
+* chore：构建过程或辅助工具的变动
+*/
+// 建立远程仓库 git push
 module.exports = {
   extends: ["@commitlint/config-conventional"], // 继承规范的配置
   rules: {
